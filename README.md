@@ -25,7 +25,7 @@ All server side code is in the server.ipynb file.<br/>
 
 **How to reproduce Demo results**<br/>
 Run the first cell of Server.ipynb. It will take care of dependecies installations for all models and server environment. 
-Run the seconde call of Server.ipynb. It will run the server. The ngrok address will be displayed as output. Copy the address(ex:123124ngrok.io) and paste it on line 123 of ViewController.swift. Build and run the Xcode Project on IPhone. Done. Note: don't run Xcode project on Xcode's simulator, it will not work, because access to IPhone's camera is needed. <br/>
+Run the seconde call of Server.ipynb. It will run the server. The ngrok address will be displayed as output. Copy the address(ex:123124ngrok.io) and paste it on line 200 of ViewController.swift. Build and run the Xcode Project on IPhone. Done. Note: don't run Xcode project on Xcode's simulator, it will not work, because access to IPhone's camera is needed. <br/>
 
 ## References 
 Implementation of TTS inference code uses [TTS implementation by CorentinJ](https://github.com/CorentinJ/Real-Time-Voice-Cloning.git)<br/>
