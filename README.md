@@ -12,7 +12,7 @@ Mobile application for blind and low-vision people which leverages ML models to 
 ## Developer guide
 
 **iOS application**<br/>
-All the client side code is in the A-Eye folder.<br/>
+All the client side code is in the client.zip. Unzip it and the FilterTest.xcworkspace can be opened by Xcode in order to viw all client source code<br/>
 **Dependencies** XCode, IPhone with iOS version >= 12.3.1, Alamofire(4.7.3), SwiftyJSON(4.0), AFNetworking(2.5.4)<br/>
 Set up instructions:<br/>
 Guide on [XCode installation](https://medium.com/@LondonAppBrewery/how-to-download-and-setup-xcode-10-for-ios-development-b63bed1865c). Note: Xcode can be installed only on MacOS<br/>
@@ -25,7 +25,7 @@ All server side code is in the server.ipynb file.<br/>
 
 **How to reproduce Demo results**<br/>
 Run the first cell of Server.ipynb. It will take care of dependecies installations for all models and server environment. 
-Run the seconde call of Server.ipynb. It will run the server. The ngrok address will be displayed as output. Copy the address(ex:123124ngrok.io) and paste it on line 200 of ViewController.swift. Build and run the Xcode Project on IPhone. Done. Note: don't run Xcode project on Xcode's simulator, it will not work, because access to IPhone's camera is needed. <br/>
+Run the seconde cell of Server.ipynb. It will run the server. The ngrok address will be displayed as output. Copy the address(ex:123124ngrok.io) and paste it on line 200 of ViewController.swift. Build and run the Xcode Project on IPhone. Done. Note: don't run Xcode project on Xcode's simulator, it will not work, because access to IPhone's camera is needed. <br/>
 
 ## References 
 Implementation of TTS inference code uses [TTS implementation by CorentinJ](https://github.com/CorentinJ/Real-Time-Voice-Cloning.git)<br/>
