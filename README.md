@@ -4,7 +4,7 @@ Mobile application for blind and low-vision people which leverages ML models to 
 ## Report
 
 **A-Eye – leveraging ML models for helping low-vision and blind people**
-[1] S. Torekhan, S. Woo, G. Lee, M. Ahmadli,  [A-Eye – leveraging ML models for helping low-vision and blind people](GenGenPaper.pdf)
+[1] S. Torekhan, S. Woo, G. Lee, M. Ahmadli,  [A-Eye – leveraging ML models for helping low-vision and blind people](A-Eye – leveraging ML models for helping low-vision and blind people.pdf)
 
 ## Demo
 put GIFs of both server side and client side working
