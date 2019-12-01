@@ -12,7 +12,7 @@ Mobile application for blind and low-vision people which leverages ML models to 
 ## Developer guide
 
 **iOS application**<br/>
-All the client side code is in the client.zip. Unzip it and the FilterTest.xcworkspace can be opened by Xcode in order to viw all client source code<br/>
+All the client side code is in the client.zip. Unzip it and the FilterTest.xcworkspace can be opened by Xcode in order to view all client source code<br/>
 **Dependencies** XCode, IPhone with iOS version >= 12.3.1, Alamofire(4.7.3), SwiftyJSON(4.0), AFNetworking(2.5.4)<br/>
 Set up instructions:<br/>
 Guide on [XCode installation](https://medium.com/@LondonAppBrewery/how-to-download-and-setup-xcode-10-for-ios-development-b63bed1865c). Note: Xcode can be installed only on MacOS<br/>
